@@ -1,5 +1,5 @@
 // pass_fail reports whether a grade is passing or failing
-package main 
+package main
 
 import (
 	"bufio"
@@ -23,13 +23,15 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	
+
 	status := ""
 	if grade >= 60 {
 		status = "passing"
 	} else {
 		status = "failing"
 	}
+
+	fmt.Println("test")
 
 	fmt.Println("A grade of", grade, "is", status)
 }
