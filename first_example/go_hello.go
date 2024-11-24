@@ -16,3 +16,5 @@ func main() {
 	var myFloat float64
 	fmt.Println(myInt, myFloat)
 }
+
+
